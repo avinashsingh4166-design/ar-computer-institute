@@ -1,0 +1,8 @@
+{
+  "name": "A.R Computer Institute",
+  "description": "Official website for A.R Computer Institute, Jankipuram Extension, Near DPS School. Offering ADCA, CCC, Python, Tally, Hindi & English Typing with affordable fees and expert training.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
