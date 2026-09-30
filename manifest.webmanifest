@@ -1,0 +1,24 @@
+{
+  "name": "A.R Computer Institute",
+  "short_name": "A.R Computer",
+  "description": "A.R Computer Institute - Computer education and training.",
+  "start_url": "/ar-computer-institute/",
+  "scope": "/ar-computer-institute/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/ar-computer-institute/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/ar-computer-institute/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
