@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="manifest" href="/ar-computer-institute/manifest.webmanifest">
+<meta name="theme-color" content="#2563eb">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A.R Computer Institute | Jankipuram Extension, Near DPS School</title>
@@ -16,6 +18,13 @@
   <body class="bg-slate-50 text-slate-900 antialiased font-sans">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/ar-computer-institute/sw.js');
+    });
+  }
+</script>
   </body>
 </html>
 
