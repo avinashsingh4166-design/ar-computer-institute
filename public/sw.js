@@ -1,4 +1,3 @@
-
 const CACHE_NAME = "ar-institute-v1";
 const APP_PREFIX = "/ar-computer-institute/";
 
@@ -37,3 +36,4 @@ self.addEventListener("fetch", (event) => {
     fetch(event.request).catch(() => caches.match(event.request))
   );
 });
+
