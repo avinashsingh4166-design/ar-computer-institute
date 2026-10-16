@@ -79,7 +79,7 @@ export const FounderSection: React.FC<FounderSectionProps> = ({ lang, onOpenInqu
                 
                 <div className="relative rounded-2xl overflow-hidden bg-white border-2 border-white shadow-lg aspect-[3/4]">
                   <img
-                    src={photoSrc}
+                    src={`${import.meta.env.BASE_URL}founder.jpg`}
                     alt="Avinash singh - Founder of A.R Computer Institute"
                     className="w-full h-full object-cover object-top select-none transition-transform duration-500 group-hover:scale-[1.02]"
                     referrerPolicy="no-referrer"
