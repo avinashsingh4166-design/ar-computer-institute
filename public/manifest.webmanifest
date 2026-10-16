@@ -1,0 +1,23 @@
+
+{
+  "name": "A.R. Computer Institute",
+  "short_name": "AR Institute",
+  "description": "A.R. Computer Institute, Jankipuram Extension",
+  "start_url": "/ar-computer-institute/",
+  "scope": "/ar-computer-institute/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#1e3a8a",
+  "icons": [
+    {
+      "src": "/ar-computer-institute/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/ar-computer-institute/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
