@@ -22,7 +22,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, onOpenInquiry, onExploreCourse
           {/* Left Column: Heading & Call to Actions */}
           <div className="lg:col-span-7 space-y-6 text-slate-900">
             
-            {/* Institute & Location Pill */}
+            {/* Institute & Location Pill + Founder Photo */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-900 text-white text-xs sm:text-sm font-semibold shadow-xs">
               <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
               <span className="font-bold text-amber-300">A.R. Computer Institute</span>
